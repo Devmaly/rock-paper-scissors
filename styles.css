@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#game{
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 4px;
+    background-color: rgb(4, 4, 93);
+}
+#gameDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#userDisplay{
+     /* background-color: brown;   */
+    height: 150px;
+    width: 135px;
+}
+#computerDisplay{
+    /* background-color: blue; */
+    height: 150px;
+    width: 135px;
+}
+#resultDisplay{
+    /* background-color: yellow; */
+    height: 130px;
+    width: 100px;
+}
+#gameButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background-color: rgb(68, 3, 3);
+    color: azure;
+    margin: 2px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
