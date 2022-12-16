@@ -13,27 +13,45 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
+    /* height: 400px; */
 }
 #userDisplay{
-     /* background-color: brown;   */
-    height: 150px;
-    width: 135px;
+      /* background-color: rgb(109, 13, 13);     */
+    /* height: 150px;
+    width: 135px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: azure;
+    
 }
 #computerDisplay{
     /* background-color: blue; */
-    height: 150px;
-    width: 135px;
+    /* height: 150px;
+    width: 135px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: azure;
 }
 #resultDisplay{
     /* background-color: yellow; */
     height: 130px;
     width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: azure;
 }
 #gameButton{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* height: 80px; */
 }
 button{
     background-color: rgb(68, 3, 3);
@@ -42,4 +60,9 @@ button{
     padding: 4px;
     padding-left: 6px;
     padding-right: 6px;
+}
+#score{
+    text-align: center;
+    color: rgb(246, 202, 7);
+    font-size: 40px;
 }
